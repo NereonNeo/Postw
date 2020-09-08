@@ -1,0 +1,32 @@
+.post {
+  display: flex;
+  flex-wrap: wrap;
+}
+.post > div {
+  flex-basis: 50%;
+}
+.likesbutton {
+  display: flex;
+  align-items: center;
+}
+.round {
+  width: 55px;
+  height: 55px;
+  background-color: rgb(144 73 73);
+  border: 2px solid white;
+  border-radius: 25px;
+  position: absolute;
+  left: 255px;
+  top: -15px;
+  text-align: center;
+  /* display: none; */
+}
+.round > span {
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  top: 25%;
+}
+.round .active {
+  display: block;
+}
